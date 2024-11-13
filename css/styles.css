@@ -36,6 +36,11 @@ h2 {
     color: white;
 }
 
+h3 {
+    text-align: right;
+    color: gray;
+}
+
 p {
     font-size: 21px;
     color: gray;
