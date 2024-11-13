@@ -1,5 +1,6 @@
 # Default ignored files
 /shelf/
+# Ignore .idea folder (Webstorm env settings)
 .idea/
 # Editor-based HTTP Client requests
 /httpRequests/

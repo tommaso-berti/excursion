@@ -1,26 +1,47 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina di esempio</title>
+    <title>excursion</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
 <!-- Header -->
 <header>
-    <h1>Ciao pippo</h1>
+    <h1>Discover hidden places in the world around you</h1>
 </header>
 
 <!-- Main content -->
 <main>
+    <div class="downloadExcursion"><a href="" target="_blank">Download Excursion (Coming soon!)</a></div>
+    <section class="videoSmartphone">
+        <video id="video" autoplay loop preload="metadata">
+            <source src="./resources/excursion.mp4" type="video/mp4">
+            <track label="English" kind="captions" srclang="en" src="./resources/excursion.mp4" default>
+        </video>
+    </section>
+    <section class="appDetails">
+        <h2>Your personal travel guide</h2>
+        <p>Excursion remembers places you like, and recommends new points of interest around you.</p>
+        <figure>
+            <img src="./resources/camp.jpg" alt="A tent, by night, with a light inside on top of a mountain">
+            <figcaption>
+                The image shows a tent, by night, with a light inside on top of a mountain
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="./resources/phone.png" alt="Icon of a phone">
+            <figcaption>
+                The image shows an icon of a phone, specifying that this paragraph is about a smartphone app
+            </figcaption>
+        </figure>
+    </section>
 </main>
 
 <!-- Footer -->
 <footer>
 </footer>
-
-<script src="js/script.js"></script>
 </body>
 </html>
